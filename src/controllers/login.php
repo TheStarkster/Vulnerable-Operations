@@ -8,7 +8,7 @@ if(isset($_POST['login'])){
     $result = mysqli_query(OpenCon(),$query);
     if($result){
         if(mysqli_fetch_assoc($result)){
-            header("location:welcome.php");
+            header("location: ../views/admin/welcome.php");
         }
     }else{
         echo $query;

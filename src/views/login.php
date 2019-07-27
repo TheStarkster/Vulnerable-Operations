@@ -9,7 +9,7 @@
     <title>Login</title>
 </head>
 <body>
-  <form action="../controllers/c_login.php" method="post">
+  <form action="../controllers/login.php" method="post">
     <div class="card" style="width: 18rem;">
     <div class="card-body">
       <center>
