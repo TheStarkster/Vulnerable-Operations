@@ -1,0 +1,13 @@
+.card{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    margin-bottom: 18px;
+}
+h5{
+    font-weight: 400;
+    padding-bottom: 12px;
+}
