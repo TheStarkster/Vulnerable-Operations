@@ -9,15 +9,17 @@
     <title>Login</title>
 </head>
 <body>
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <center>
-      <h5 class="card-title">Enter Your Credentials</h5>
-      <input type="text" placeholder="Username" class="form-control">
-      <input type="password" placeholder="*******" class="form-control">
-      <input type="submit" value="Login" class="btn btn-primary">
-    </center>
+  <form action="../controllers/c_login.php" method="post">
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <center>
+        <h5 class="card-title">Enter Your Credentials</h5>
+        <input type="text" name="username" placeholder="Username" class="form-control">
+        <input type="password" name="password" placeholder="*******" class="form-control">
+        <input type="submit" name="login" value="Login" class="btn btn-primary">
+      </center>
+    </div>
   </div>
-</div>
+  </form>
 </body>
 </html>
